@@ -37,8 +37,6 @@ else if( ai_throw == scissors){
     printf("\nAI throw is scissors.\n");
 }
 
-draw = false;
-
 if(player_throw == rock && ai_throw == scissors){
     printf("\nrock beats scissors. You win!!\n");
 }
